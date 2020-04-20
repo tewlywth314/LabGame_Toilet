@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     float rotate = 180;
     [SerializeField] bool Jumped;
     public GameObject Grounded;
+    [SerializeField] bool CanMove;
 
 
     // BetterJump
@@ -35,9 +36,16 @@ public class PlayerController : MonoBehaviour
     }
     void Movement1()
     {
-        Move();
-        Jump();
-       
+        if(CanMove == true)
+        {
+            Move();
+            Jump();
+            anim.SetBool("IsStopping", false);
+        }
+        else
+        {
+            anim.SetBool("IsStopping", true);
+        }
        
         
        

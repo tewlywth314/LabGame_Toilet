@@ -13,13 +13,13 @@ TagManager:
   - UI
   - 
   - 
-  - head
-  - righthand
-  - mop
-  - body
-  - lefthand
-  - bot
-  - leg
+  - NPC1
+  - NPC2
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -40,4 +40,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: NPC2
+    uniqueID: 2794863253
+    locked: 0
+  - name: NPC1
+    uniqueID: 2265852853
+    locked: 0
+  - name: UI
+    uniqueID: 1314378619
+    locked: 0
+  - name: Player
+    uniqueID: 3667011361
     locked: 0
