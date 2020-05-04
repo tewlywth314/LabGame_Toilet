@@ -194,7 +194,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 619952558191895603}
   m_Bounds:
-    m_Center: {x: -0.014694512, y: -0.0011199117, z: 0}
+    m_Center: {x: -0.0146948695, y: -0.0011197925, z: 0}
     m_Extent: {x: 0.5903052, y: 0.8675899, z: 0}
   m_UseBatching: 1
 --- !u!1 &2988038497666527996
@@ -326,7 +326,7 @@ MonoBehaviour:
   - {fileID: 4267476257547439658}
   - {fileID: 2423865678879246337}
   m_Bounds:
-    m_Center: {x: -0.0042049885, y: -0.00000011920929, z: 0}
+    m_Center: {x: -0.004205227, y: 0, z: 0}
     m_Extent: {x: 1.200125, y: 0.735, z: 0}
   m_UseBatching: 1
 --- !u!1 &3742730428469487954
@@ -428,7 +428,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 2423865678879246337}
   m_Bounds:
-    m_Center: {x: -1.0544302, y: 0.000000059604645, z: 0}
+    m_Center: {x: -1.05443, y: -0.000000059604645, z: 0}
     m_Extent: {x: 0.66291004, y: 0.9250003, z: 0}
   m_UseBatching: 1
 --- !u!1 &4099964885790747088
@@ -530,7 +530,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 7264436703396509619}
   m_Bounds:
-    m_Center: {x: 0.0021300316, y: -0.00000011920929, z: 0}
+    m_Center: {x: 0.0021300912, y: -0.00000011920929, z: 0}
     m_Extent: {x: 0.6278702, y: 0.6950002, z: 0}
   m_UseBatching: 1
 --- !u!1 &6168215766423791723
@@ -545,6 +545,7 @@ GameObject:
   - component: {fileID: 4114058607280971092}
   - component: {fileID: 4114058607280971093}
   - component: {fileID: 4114058607280971095}
+  - component: {fileID: -7976471884311353791}
   m_Layer: 0
   m_Name: soilder
   m_TagString: Untagged
@@ -661,6 +662,20 @@ MonoBehaviour:
   MaxHp: 100
   damage: 10
   CurrentHp: 100
+--- !u!114 &-7976471884311353791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6168215766423791723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffb34cb540232474fbcd55cacd63bf8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemyAttack: {fileID: 3559208629882173431, guid: 051bc2a41715c184ca57e449c2a00ef6,
+    type: 3}
 --- !u!1 &6172789128393814715
 GameObject:
   m_ObjectHideFlags: 0
@@ -791,7 +806,7 @@ MonoBehaviour:
   - {fileID: 4267476257547439658}
   - {fileID: 3918185330080302467}
   m_Bounds:
-    m_Center: {x: -0.0018899441, y: -0.0019750595, z: 0}
+    m_Center: {x: -0.0018901825, y: -0.0019750595, z: 0}
     m_Extent: {x: 2.38311, y: 2.738025, z: 0}
   m_UseBatching: 1
 --- !u!1 &6593915946417889933
@@ -998,7 +1013,7 @@ MonoBehaviour:
   - {fileID: 619952558191895603}
   - {fileID: 2423865678879246337}
   m_Bounds:
-    m_Center: {x: 0.0019452572, y: 0.00230062, z: 0}
+    m_Center: {x: 0.001945734, y: 0.00230062, z: 0}
     m_Extent: {x: 3.488056, y: 1.2477014, z: 0}
   m_UseBatching: 1
 --- !u!1 &8365781627101867523
@@ -1162,7 +1177,7 @@ MonoBehaviour:
   - {fileID: 4267476257547439658}
   - {fileID: 7264436703396509619}
   m_Bounds:
-    m_Center: {x: -0.0000009536743, y: 0.0020000637, z: 0}
+    m_Center: {x: -0.00000023841858, y: 0.0020001233, z: 0}
     m_Extent: {x: 1.275, y: 0.4810901, z: 0}
   m_UseBatching: 1
 --- !u!1 &9163816364765969350
@@ -1264,6 +1279,6 @@ MonoBehaviour:
   - {fileID: 3918185330080302467}
   - {fileID: 1633324609913049916}
   m_Bounds:
-    m_Center: {x: -0.00649786, y: -0.026430964, z: 0}
+    m_Center: {x: -0.006498337, y: -0.026430964, z: 0}
     m_Extent: {x: 2.6002703, y: 1.910249, z: 0}
   m_UseBatching: 1

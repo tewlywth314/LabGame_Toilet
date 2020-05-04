@@ -9,12 +9,14 @@ public class BattleUnit : MonoBehaviour
     public float MaxHp;
     public float damage;
     public float CurrentHp;
+    
 
     public bool TakeDamage(float dmg)
     {
         CurrentHp -= dmg;
         if(CurrentHp <= 0)
         {
+            
             return true;
         }
         else

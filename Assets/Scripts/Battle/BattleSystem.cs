@@ -6,19 +6,24 @@ using TMPro;
 public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST }
 public class BattleSystem : MonoBehaviour
 {
-    public BattleState State;
+    public static BattleState State;
     public Slider AttackGuage;
     public GameObject AttackBar;
     public GameObject player;
     public GameObject enemy;
     public GameObject AttackBut;
+    public static GameObject EnemyPat;
+
+
 
     public Transform PlayerPos;
     public Transform EnemyPos;
+    public Transform PatternPos;
 
-    BattleUnit playerUnit;
-    BattleUnit enemyUnit;
+    public static BattleUnit playerUnit;
+    public static BattleUnit enemyUnit;
 
+    public heart PlayerHeart;
     public BattleUI playerUI;
     public BattleUI enemyUI;
 
@@ -28,9 +33,10 @@ public class BattleSystem : MonoBehaviour
     [SerializeField] KeyCode AttackButton;
     public float ATK;
     private bool IsAttacking = false;
+    public static bool EnemFin;
 
-   
-   
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -114,21 +120,29 @@ public class BattleSystem : MonoBehaviour
     {
         
         AttackBar.SetActive(false);
+        EnemyPat = Instantiate(enemy.GetComponent<EnemyPattern>().EnemyAttack, PatternPos);
+        
         EncounterDialog.text = enemyUnit.Name + "is attacking !!";
-        yield return new WaitForSeconds(1f);
-        bool isDead = playerUnit.TakeDamage(enemyUnit.damage);
-        playerUI.Hp(playerUnit.CurrentHp);
-        yield return new WaitForSeconds(2f);
-        if (isDead)
+        
+        bool isDead = heart.isDead;
+        
+        yield return new WaitUntil(() => EnemFin == true);
+        PlayerHeart.SetHeart();
+        if (isDead )
         {
             State = BattleState.LOST;
             EnemyTurn();
         }
-        else
+        else 
         {
             State = BattleState.PLAYERTURN;
             PlayerTurn();
+
+
         }
+
+
+
     }
     
     void SetUpBattle()
@@ -149,6 +163,8 @@ public class BattleSystem : MonoBehaviour
     }
     void PlayerTurn()
     {
+        EnemFin = false;
+        Destroy(EnemyPat);
         EncounterDialog.text = "What am i gonna do ?";
         AttackBut.SetActive(true);
     }

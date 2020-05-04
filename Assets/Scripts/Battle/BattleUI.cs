@@ -9,6 +9,8 @@ public class BattleUI : MonoBehaviour
     // Start is called before the first frame update
     public TextMeshProUGUI nameText;
     public Slider HpGuage;
+    public GameObject BattleBoard;
+ 
 
     public void SetUI(BattleUnit unit)
     {
@@ -20,4 +22,16 @@ public class BattleUI : MonoBehaviour
     {
         HpGuage.value = hp;
     }
+    private void Update()
+    {
+        if(BattleSystem.State == BattleState.ENEMYTURN)
+        {
+            BattleBoard.SetActive(true);
+        }
+        else
+        {
+            BattleBoard.SetActive(false);
+        }
+    }
+  
 }
