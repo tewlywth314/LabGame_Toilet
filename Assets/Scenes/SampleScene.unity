@@ -6646,6 +6646,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canvas: {fileID: 1170699679}
   itemtext: {fileID: 0}
+  Toothbrush: {fileID: 678089660}
+  ToothbrushOnGround: {fileID: 451004063}
+  Toothpaste: {fileID: 0}
+  Bowl: {fileID: 0}
+  Shaving: {fileID: 0}
+  ScrubberBrush: {fileID: 0}
+  ToiletSuction: {fileID: 0}
+  Comb: {fileID: 0}
+  Sprinkler: {fileID: 0}
+  DishwashingLiquid: {fileID: 0}
+  Sponge: {fileID: 0}
+  ShoePolish: {fileID: 0}
+  Fabric: {fileID: 0}
+  Soap: {fileID: 0}
+  Shampoo: {fileID: 0}
+  Closet: {fileID: 0}
 --- !u!114 &2043162700
 MonoBehaviour:
   m_ObjectHideFlags: 0
