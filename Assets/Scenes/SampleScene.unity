@@ -2301,7 +2301,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 2043162698}
-  speed: 300
+  speed: 6
   anim: {fileID: 2043162701}
 --- !u!95 &2043162701
 Animator:
