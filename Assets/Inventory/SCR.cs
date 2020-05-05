@@ -21,7 +21,6 @@ public class SCR : MonoBehaviour
             PlayerPrefs.SetFloat("y", Y);
             PlayerPrefs.SetFloat("z", Z);
             SceneManager.LoadSceneAsync(PlayerPrefs.GetString("CS"));
-            
         }
     }
 }
