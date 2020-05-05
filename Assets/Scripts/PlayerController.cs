@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] Rigidbody rb;
     [SerializeField] float speed;
     [SerializeField] Animator anim;
+    Scene scene;
     float rotate = 180;
     // Start is called before the first frame update
     void Start()
@@ -17,6 +19,13 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.I))
+        {
+            scene = SceneManager.GetActiveScene();
+            PlayerPrefs.SetString("CS", scene.name);
+            Debug.Log(scene.name);
+            SceneManager.LoadSceneAsync("Inventory");
+        }
         if(Input.GetKey(KeyCode.D))
         {
             rb.velocity = new Vector3( speed * Time.deltaTime,0f,0f);
