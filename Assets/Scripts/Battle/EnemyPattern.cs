@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyPattern : MonoBehaviour
 {
     // Start is called before the first frame update
-    public GameObject EnemyAttack;
+    public GameObject[] EnemyAttack;
 
     // Update is called once per frame
     void Update()

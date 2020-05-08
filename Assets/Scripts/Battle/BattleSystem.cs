@@ -34,6 +34,8 @@ public class BattleSystem : MonoBehaviour
     public float ATK;
     private bool IsAttacking = false;
     public static bool EnemFin;
+    public int EnemyPatNum;
+    public float TimeSet;
 
 
 
@@ -50,7 +52,9 @@ public class BattleSystem : MonoBehaviour
     {
         if (State != BattleState.PLAYERTURN)
             return;
+        TimeSet = Time.time;
         AttackBar.SetActive(true);
+        
         AttackBut.SetActive(false);
         IsAttacking = true;
         
@@ -68,7 +72,7 @@ public class BattleSystem : MonoBehaviour
         
         if (IsAttacking == true)
         {
-            AttackGuage.value = Mathf.Abs(AttackGuage.maxValue * Mathf.Sin(multiplier*Time.time));
+            AttackGuage.value = Mathf.Abs(AttackGuage.maxValue * Mathf.Sin(multiplier*(Time.time-TimeSet)));
             if (Input.GetKeyDown(AttackButton)  && State==BattleState.PLAYERTURN)
             {
                 ATK = AttackGuage.value;
@@ -120,7 +124,9 @@ public class BattleSystem : MonoBehaviour
     {
         
         AttackBar.SetActive(false);
-        EnemyPat = Instantiate(enemy.GetComponent<EnemyPattern>().EnemyAttack, PatternPos);
+        EnemyPatNum = Random.Range(0, enemy.GetComponent<EnemyPattern>().EnemyAttack.Length);
+       
+        EnemyPat = Instantiate(enemy.GetComponent<EnemyPattern>().EnemyAttack[EnemyPatNum], PatternPos);
         
         EncounterDialog.text = enemyUnit.Name + "is attacking !!";
         

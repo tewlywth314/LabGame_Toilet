@@ -2997,6 +2997,8 @@ MonoBehaviour:
   multiplier: 1
   AttackButton: 32
   ATK: 0
+  EnemyPatNum: 0
+  TimeSet: 0
 --- !u!1 &2015048678
 GameObject:
   m_ObjectHideFlags: 0
