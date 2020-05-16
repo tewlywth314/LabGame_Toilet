@@ -23,7 +23,7 @@ public class MapChange : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                SceneManager.LoadSceneAsync("StorageRoom");
+                SceneManager.LoadSceneAsync("StorageBattle");
             }
         }
     }

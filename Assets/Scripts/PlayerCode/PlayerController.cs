@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] bool Jumped;
     public GameObject Grounded;
     [SerializeField] bool CanMove;
+    
 
 
     // BetterJump
