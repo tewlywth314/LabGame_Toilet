@@ -11,21 +11,27 @@ public class WeaponDropdown : MonoBehaviour
     // Start is called before the first frame update
     public TMP_Dropdown Weapons;
     ItemLoader player;
+    public GameObject item;
     public List<string> WeaponName;
     string jsonPath;
+    public float multi = 1;
+    public static int id;
+    public static float PolarizedDmg;
 
 
 
     // Update is called once per frame
     private void Start()
     {
+        WeaponName =  new List<string> { "Select your weapon" };
         jsonPath = Application.persistentDataPath + "/ItemDictionary.json";
         File.ReadAllText(jsonPath);
-        player = FindObjectOfType<ItemLoader>();
+        player = item.GetComponent<ItemLoader>();
+        
        
-       foreach(Item item in player.playerItems)
+       foreach(Item itemZ in player.playerItems)
         {
-            string name = item.ItemName;
+            string name = itemZ.ItemName;
             WeaponName.Add(name);
 
         }
@@ -39,6 +45,19 @@ public class WeaponDropdown : MonoBehaviour
     private void Update()
     {
         
+    }
+    public void DropDownWeaponChanged(int index)
+    {
+        foreach (Item itemZ in player.playerItems)
+        {
+            if (WeaponName[index] == itemZ.ItemName)
+            {
+                multi = itemZ.MultiplierDamage;
+                id = itemZ.ID;
+                PolarizedDmg = itemZ.PolarizedDamage;
+            }
+
+        }
     }
 
 }

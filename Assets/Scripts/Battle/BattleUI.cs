@@ -9,7 +9,9 @@ public class BattleUI : MonoBehaviour
     // Start is called before the first frame update
     public TextMeshProUGUI nameText;
     public Slider HpGuage;
+    public Slider PolarizedGuage;
     public GameObject BattleBoard;
+
  
 
     public void SetUI(BattleUnit unit)
@@ -17,10 +19,16 @@ public class BattleUI : MonoBehaviour
         nameText.text = unit.Name;
         HpGuage.maxValue = unit.MaxHp;
         HpGuage.value = unit.CurrentHp;
+        PolarizedGuage.maxValue = unit.MaxPolarized;
     }
     public void Hp(float hp)
     {
         HpGuage.value = hp;
+        
+    }
+    public void Polarized(float PolarizedDamage)
+    {
+        PolarizedGuage.value = PolarizedDamage;
     }
     private void Update()
     {

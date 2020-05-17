@@ -115,6 +115,8 @@ GameObject:
   - component: {fileID: 5425770343242706551}
   - component: {fileID: 6249088356566889745}
   - component: {fileID: 4337470874696873212}
+  - component: {fileID: 7832250361317211613}
+  - component: {fileID: 1832695441456757856}
   m_Layer: 0
   m_Name: mop
   m_TagString: Untagged
@@ -175,13 +177,13 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 7
-  m_Sprite: {fileID: 1046344574145201617, guid: 79278fca5f9b5754a92fe8d222b1d635,
+  m_Sprite: {fileID: -1366563036087959015, guid: 55f0ecc9f6c54bf4c9a40392cc09b1b4,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 6.98, y: 2.5}
+  m_Size: {x: 7.11, y: 1.88}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -205,6 +207,33 @@ MonoBehaviour:
     m_Center: {x: -0.35470057, y: 0.21631038, z: 0}
     m_Extent: {x: 3.4276776, y: 1.5923389, z: 0}
   m_UseBatching: 1
+--- !u!114 &7832250361317211613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3730572045149158060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a57aa359fe86404187cada51e303566, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1832695441456757856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3730572045149158060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e6473525f3c0924a98e8b14119a1c6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WeaponSprite:
+  - {fileID: -1366563036087959015, guid: 55f0ecc9f6c54bf4c9a40392cc09b1b4, type: 3}
+  - {fileID: 8241227563834357166, guid: d6715df5fd89e194b8063216a8acecb6, type: 3}
 --- !u!1 &4995682643535370160
 GameObject:
   m_ObjectHideFlags: 0
@@ -1035,7 +1064,7 @@ GameObject:
   - component: {fileID: 3905283247980863690}
   m_Layer: 0
   m_Name: character
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1165,8 +1194,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: player
   MaxHp: 100
+  MaxPolarized: 100
   damage: 20
   CurrentHp: 100
+  CurrentPolarized: 100
+  PolarizedWepID: 00000000
 --- !u!114 &3905283247980863690
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -13,6 +13,8 @@ public class BattleSystem : MonoBehaviour
     public GameObject enemy;
     public GameObject AttackBut;
     public static GameObject EnemyPat;
+    public GameObject WeaponSelectBar;
+    
 
 
 
@@ -29,7 +31,7 @@ public class BattleSystem : MonoBehaviour
 
     public TextMeshProUGUI EncounterDialog;
 
-    [SerializeField] float multiplier;
+    [SerializeField] float multiplier = 1;
     [SerializeField] KeyCode AttackButton;
     public float ATK;
     private bool IsAttacking = false;
@@ -44,6 +46,7 @@ public class BattleSystem : MonoBehaviour
     {
         State = BattleState.START;
         SetUpBattle();
+
     }
 
     // Update is called once per frame
@@ -62,6 +65,7 @@ public class BattleSystem : MonoBehaviour
     }
     private void Update()
     {
+        multiplier = GetComponent<WeaponDropdown>().multi;
         AttackDamage();
     }
     public void AttackDamage()
@@ -93,6 +97,7 @@ public class BattleSystem : MonoBehaviour
         
         bool IsDead = enemyUnit.TakeDamage(playerUnit.damage);
         enemyUI.Hp(enemyUnit.CurrentHp);
+        enemyUI.Polarized(enemyUnit.CurrentPolarized);
         
 
 
@@ -122,7 +127,7 @@ public class BattleSystem : MonoBehaviour
     }
     IEnumerator EnemyTurn()
     {
-        
+        WeaponSelectBar.SetActive(false);
         AttackBar.SetActive(false);
         EnemyPatNum = Random.Range(0, enemy.GetComponent<EnemyPattern>().EnemyAttack.Length);
        
@@ -155,6 +160,7 @@ public class BattleSystem : MonoBehaviour
     {
         GameObject PlayerStand = Instantiate(player, PlayerPos);
         playerUnit = PlayerStand.GetComponent<BattleUnit>();
+        
 
         GameObject EnemyStand = Instantiate(enemy, EnemyPos);
         enemyUnit = EnemyStand.GetComponent<BattleUnit>();
@@ -169,10 +175,13 @@ public class BattleSystem : MonoBehaviour
     }
     void PlayerTurn()
     {
+        
         EnemFin = false;
         Destroy(EnemyPat);
         EncounterDialog.text = "What am i gonna do ?";
         AttackBut.SetActive(true);
+        WeaponSelectBar.SetActive(true);
+        
     }
 
 }
