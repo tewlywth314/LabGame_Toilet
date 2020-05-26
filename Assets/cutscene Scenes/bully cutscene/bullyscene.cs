@@ -33,7 +33,7 @@ public class bullyscene : MonoBehaviour
             tew = false;
             loop++;
 
-            if (loop == 4)
+            if (loop == 5)
             {
                 SceneManager.LoadSceneAsync("Storageroom");
             }
