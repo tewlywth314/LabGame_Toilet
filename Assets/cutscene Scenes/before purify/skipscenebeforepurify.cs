@@ -33,7 +33,7 @@ public class skipscenebeforepurify : MonoBehaviour
             tew = false;
             loop++;
 
-            if (loop == 8)
+            if (loop == 7)
             {
                 SceneManager.LoadSceneAsync("Storageroom");
             }
