@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] Rigidbody rb;
-    [SerializeField] float speed;
+    public float speed;
     [SerializeField] float jumpVelocity;
     [SerializeField] Animator anim;
     [SerializeField] KeyCode MoveLeft;
