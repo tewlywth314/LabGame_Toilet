@@ -116,7 +116,8 @@ public class BattleSystem : MonoBehaviour
     }
     public void EndBattle()
     {
-        if(State == BattleState.WON)
+        Destroy(EnemyPat);
+        if (State == BattleState.WON)
         {
             EncounterDialog.text = "You Win !!";
         }
@@ -134,15 +135,16 @@ public class BattleSystem : MonoBehaviour
         EnemyPat = Instantiate(enemy.GetComponent<EnemyPattern>().EnemyAttack[EnemyPatNum], PatternPos);
         
         EncounterDialog.text = enemyUnit.Name + "is attacking !!";
-        
-        bool isDead = heart.isDead;
-        
+      
         yield return new WaitUntil(() => EnemFin == true);
         PlayerHeart.SetHeart();
+        bool isDead = heart.isDead;
+        Debug.Log(isDead);
         if (isDead )
         {
             State = BattleState.LOST;
-            EnemyTurn();
+            EndBattle();
+
         }
         else 
         {

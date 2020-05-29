@@ -20,6 +20,7 @@ public class BattleUI : MonoBehaviour
         HpGuage.maxValue = unit.MaxHp;
         HpGuage.value = unit.CurrentHp;
         PolarizedGuage.maxValue = unit.MaxPolarized;
+        PolarizedGuage.value = unit.CurrentPolarized;
     }
     public void Hp(float hp)
     {
