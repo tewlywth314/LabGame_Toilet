@@ -23,4 +23,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/death scene/test.unity
     guid: 77da1b4e3d506d841bb4bd106942e7c5
+  - enabled: 1
+    path: Assets/cutscene Scenes/endgame/endgame.unity
+    guid: 4860626139898784b86b00a2646e003f
+  - enabled: 1
+    path: Assets/Scenes/endingscene/endingscene.unity
+    guid: eeb5c6a13f1a4ba42987f8b4636dec13
+  - enabled: 1
+    path: Assets/cutscene Scenes/Doctor/Doctorscene.unity
+    guid: 0da4403e01b09d14db30cff1e74f9e95
   m_configObjects: {}
