@@ -23,7 +23,7 @@ public class MapChange : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                SceneManager.LoadSceneAsync("StorageBattle");
+                SceneManager.LoadSceneAsync("bully scene");
             }
         }
     }

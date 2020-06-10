@@ -35,7 +35,7 @@ public class VDOscript : MonoBehaviour
 
             if(loop == 11)
             {
-                SceneManager.LoadSceneAsync("bathroom");
+                SceneManager.LoadSceneAsync("Turtorial");
             }
         }
     }

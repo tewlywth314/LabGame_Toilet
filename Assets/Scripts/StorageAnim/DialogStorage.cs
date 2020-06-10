@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogStorage : MonoBehaviour
 {
@@ -34,5 +35,7 @@ public class DialogStorage : MonoBehaviour
         yield return new WaitForSeconds(1.5f);
         Audio.PlayOneShot(Clip, volume);
         PlayerDialog.SetActive(true);
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadSceneAsync("StorageBattle");
     }
 }
