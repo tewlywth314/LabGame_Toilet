@@ -6,13 +6,11 @@ using UnityEngine.SceneManagement;
 public class MapChange : MonoBehaviour
 {
     public GameObject player;
-    // Start is called before the first frame update
+    public string NextScene;
     void Start()
     {
         
     }
-
-    // Update is called once per frame
     void Update()
     {
         
@@ -23,7 +21,11 @@ public class MapChange : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
+<<<<<<< Updated upstream
                 SceneManager.LoadSceneAsync("StorageRoom");
+=======
+                SceneManager.LoadSceneAsync(NextScene);
+>>>>>>> Stashed changes
             }
         }
     }
