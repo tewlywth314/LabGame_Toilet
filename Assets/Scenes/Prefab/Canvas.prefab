@@ -324,6 +324,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 5164100889882991672}
   HpGuage: {fileID: 5164100890496025104}
+  PolarizedGuage: {fileID: 0}
   BattleBoard: {fileID: 0}
 --- !u!1 &5164100889567343897
 GameObject:
@@ -1195,6 +1196,7 @@ GameObject:
   - component: {fileID: 5164100889941326464}
   - component: {fileID: 5164100889941326465}
   - component: {fileID: 5164100889941326469}
+  - component: {fileID: 6440232785141111609}
   - component: {fileID: 5164100889941326468}
   m_Layer: 5
   m_Name: Canvas
@@ -1305,6 +1307,7 @@ MonoBehaviour:
   player: {fileID: 8570251457057128626, guid: fac775435f3190743a696be911394a16, type: 3}
   enemy: {fileID: 6168215766423791723, guid: 76693fe2a2183d54bb2ec21abf5707b8, type: 3}
   AttackBut: {fileID: 5164100891170557990}
+  WeaponSelectBar: {fileID: 0}
   PlayerPos: {fileID: 0}
   EnemyPos: {fileID: 0}
   PatternPos: {fileID: 0}
@@ -1317,6 +1320,19 @@ MonoBehaviour:
   ATK: 0
   EnemyPatNum: 0
   TimeSet: 0
+--- !u!114 &6440232785141111609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5164100889941326466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 713e29f7473770847b34eb2535b04291, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemyHP: {fileID: 5164100891364063291}
 --- !u!114 &5164100889941326468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1332,6 +1348,7 @@ MonoBehaviour:
   Weapons: {fileID: 5164100890897991931}
   item: {fileID: 0}
   WeaponName: []
+  multi: 1
 --- !u!1 &5164100889964914363
 GameObject:
   m_ObjectHideFlags: 0
@@ -1496,6 +1513,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 5164100890289199970}
   HpGuage: {fileID: 5164100891364063291}
+  PolarizedGuage: {fileID: 0}
   BattleBoard: {fileID: 0}
 --- !u!1 &5164100889985199376
 GameObject:

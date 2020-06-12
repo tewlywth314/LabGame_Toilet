@@ -6,9 +6,12 @@ public class CameraController : MonoBehaviour
 {
     public GameObject player;
     private float xPos;
+    public float x1 ;
+    public float x2;
 
 
-    
+
+
 
 
     void Start()
@@ -19,13 +22,13 @@ public class CameraController : MonoBehaviour
    
     void Update()
     {
-        if(player.transform.position.x < -12)
+        if(player.transform.position.x < x1)
         {
-            xPos = -12f;
+            xPos = x1;
         }
-        else if(player.transform.position.x > 10)
+        else if(player.transform.position.x >x2)
         {
-            xPos = 10f;
+            xPos = x2;
         }
         else
         {

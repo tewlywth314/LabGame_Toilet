@@ -17,7 +17,7 @@ public class GunTrack : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        error = new Vector3(0.41f, 0.5f, 0);
+        error = new Vector3(0.6f, -2.3f, 0);
         DestroyBullet.Destroy = false;
     }
 

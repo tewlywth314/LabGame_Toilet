@@ -1061,6 +1061,7 @@ GameObject:
   - component: {fileID: 1379051304293136954}
   - component: {fileID: 1379051304293136955}
   - component: {fileID: 3098866409422433925}
+  - component: {fileID: 5038070431833316663}
   - component: {fileID: 3905283247980863690}
   m_Layer: 0
   m_Name: character
@@ -1194,11 +1195,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: player
   MaxHp: 100
-  MaxPolarized: 100
+  MaxPolarized: 100000
   damage: 20
   CurrentHp: 100
-  CurrentPolarized: 100
+  CurrentPolarized: 100000
   PolarizedWepID: 00000000
+--- !u!114 &5038070431833316663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8570251457057128626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 284d69486cd4d8a4c85340438412d9de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &3905283247980863690
 MonoBehaviour:
   m_ObjectHideFlags: 0

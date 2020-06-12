@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class heart : MonoBehaviour
 {
@@ -13,7 +14,8 @@ public class heart : MonoBehaviour
     public Transform StartPos;
     public static bool isDead;
     public BattleUI playerUI;
-
+    public Slider PlayerHP;
+    private Animator anim;
 
 
 
@@ -23,15 +25,23 @@ public class heart : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     private void Update()
     {
         Move();
-        
-      
+        if (PlayerHP.value <= 0)
+        {
+            anim.SetBool("Broken", true);
+        }
+        if (PlayerHP.value > 0)
+        {
+            anim.SetBool("Broken", false);
+        }
+
+
 
     }
     public  void SetHeart()

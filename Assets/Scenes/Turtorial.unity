@@ -308,10 +308,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 108373087}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64f5a2863343ad34195e7a327160a7a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 887e9fd08d4600a4d9ce67bef8fac980, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 7335512298478190216}
+  Scenename: StorageRoom
 --- !u!1 &192106083
 GameObject:
   m_ObjectHideFlags: 0

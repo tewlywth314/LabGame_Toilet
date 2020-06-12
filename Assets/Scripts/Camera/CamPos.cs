@@ -10,6 +10,7 @@ public class CamPos : MonoBehaviour
   
    
     private Vector3 CameraVelo;
+    private Vector3 PlayerVelo;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,24 +21,36 @@ public class CamPos : MonoBehaviour
     void Update()
     {
         PlayerPos = Player.transform.position;
-        CameraVelo = Player.GetComponent<Rigidbody>().velocity;
-       
+        CameraVelo = gameObject.GetComponent<Rigidbody>().velocity;
+        PlayerVelo = Player.GetComponent<Rigidbody>().velocity;
 
 
-        if (Player.transform.position.x > transform.position.x && CameraVelo.x > 0)
+        if (Player.GetComponent<Rigidbody>().velocity == Vector3.zero)
         {
-            rb.AddForce(CameraVelo * 45.5f , ForceMode.Acceleration);
-        
+            gameObject.GetComponent<Rigidbody>().velocity = PlayerVelo;
+            //Debug.Log("Bet");
         }
 
-        if (Player.transform.position.x < transform.position.x && CameraVelo.x < 0)
+        else if (Player.transform.position.x > transform.position.x && PlayerVelo.x > 0)
+        {
+            rb.AddForce(new Vector3(1, 0, 0) * 80.5f, ForceMode.Acceleration);
+
+            //Debug.Log("Bet2");
+        }
+
+        else if (Player.transform.position.x < transform.position.x && PlayerVelo.x < 0)
         {
 
-            rb.AddForce(CameraVelo * 45.5f , ForceMode.Acceleration);
-            
-
+            rb.AddForce(new Vector3(-1, 0, 0) * 80.5f, ForceMode.Acceleration);
+            //Debug.Log("Bet3");
         }
-        rb.velocity = Vector3.zero;
+        else
+        {
+            gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
+        }
+
+
+
 
 
 

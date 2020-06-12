@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Turtorial.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/StorageRoom.unity
     guid: bbae05e86d55153418805658ab6a5bf8
   - enabled: 1
@@ -18,6 +18,33 @@ EditorBuildSettings:
     path: Assets/Scenes/Scenes 0/menu.unity
     guid: 5827968ae39293f458d18c30b97e7b82
   - enabled: 1
-    path: Assets/Scenes/CutsceneStart.unity
-    guid: c149e4d155fd66b488f44eae753d3dae
+    path: Assets/cutscene Scenes/Start cutscene/start cutscene.unity
+    guid: eadacc15601bba94ca5b2217ff18c83e
+  - enabled: 1
+    path: Assets/cutscene Scenes/bully cutscene/bully scene.unity
+    guid: 9acea8b73f4ef414cbae326b938a67b9
+  - enabled: 1
+    path: Assets/Scenes/death scene/deathscene.unity
+    guid: fe89f7c759888a749a8d686da68c5da1
+  - enabled: 1
+    path: Assets/cutscene Scenes/before purify/before purify.unity
+    guid: c1dbad69514e88a4fbef172d417b69cb
+  - enabled: 1
+    path: Assets/Scenes/StoragePolarized.unity
+    guid: 4c66c55940c4d1f439889e5dc1e2ccf4
+  - enabled: 1
+    path: Assets/Scenes/RestRoomBattle.unity
+    guid: eda2b540470d1a347a5848641e71fb72
+  - enabled: 1
+    path: Assets/cutscene Scenes/after purify/after purify.unity
+    guid: 7276b4ba75c1edf4689d63861e777b02
+  - enabled: 1
+    path: Assets/Scenes/SStorage.unity
+    guid: 01d91a6af91c5a541aef7a0beffb36ed
+  - enabled: 1
+    path: Assets/Scenes/Kitchen.unity
+    guid: bf460736e4655ef4f83ecaa090183be9
+  - enabled: 1
+    path: Assets/Scenes/RestRoom.unity
+    guid: 6bff1da19c014ed438e6b5a8bfff9eac
   m_configObjects: {}
