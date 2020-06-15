@@ -221,7 +221,7 @@ PrefabInstance:
     - target: {fileID: 8395601644055806957, guid: 8ec8e8ffa4b06aa4b8c74dc6c181acb0,
         type: 3}
       propertyPath: WeaponSprite.Array.size
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8395601644055806957, guid: 8ec8e8ffa4b06aa4b8c74dc6c181acb0,
         type: 3}
@@ -234,6 +234,18 @@ PrefabInstance:
       propertyPath: WeaponSprite.Array.data[1]
       value: 
       objectReference: {fileID: 8241227563834357166, guid: d6715df5fd89e194b8063216a8acecb6,
+        type: 3}
+    - target: {fileID: 8395601644055806957, guid: 8ec8e8ffa4b06aa4b8c74dc6c181acb0,
+        type: 3}
+      propertyPath: WeaponSprite.Array.data[2]
+      value: 
+      objectReference: {fileID: -4745778048674455331, guid: 955290156323ebf47ad52b3af1c76804,
+        type: 3}
+    - target: {fileID: 8395601644055806957, guid: 8ec8e8ffa4b06aa4b8c74dc6c181acb0,
+        type: 3}
+      propertyPath: WeaponSprite.Array.data[3]
+      value: 
+      objectReference: {fileID: -4745778048674455331, guid: 955290156323ebf47ad52b3af1c76804,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ec8e8ffa4b06aa4b8c74dc6c181acb0, type: 3}

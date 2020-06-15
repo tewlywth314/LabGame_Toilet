@@ -33,8 +33,26 @@ EditorBuildSettings:
     path: Assets/Scenes/StoragePolarized.unity
     guid: 4c66c55940c4d1f439889e5dc1e2ccf4
   - enabled: 1
+    path: Assets/Scenes/GovernmentRoom.unity
+    guid: f06e102d9e6312e4c87d76c65ee19d15
+  - enabled: 1
+    path: Assets/cutscene Scenes/Doctor/Doctorscene.unity
+    guid: 0da4403e01b09d14db30cff1e74f9e95
+  - enabled: 1
+    path: Assets/Scenes/G.RoomBattle.unity
+    guid: 479b286dae7e35c428d2f12bb3e93fca
+  - enabled: 1
+    path: Assets/cutscene Scenes/endgame/endgame.unity
+    guid: 4860626139898784b86b00a2646e003f
+  - enabled: 1
     path: Assets/Scenes/RestRoomBattle.unity
     guid: eda2b540470d1a347a5848641e71fb72
+  - enabled: 1
+    path: Assets/Scenes/SR.Room2Battle.unity
+    guid: db0c8f762e790ff4481991be18b5c2b8
+  - enabled: 1
+    path: Assets/Scenes/SurgeonRoom2.unity
+    guid: 49b9d6be753ee3f4c80b49686e88c341
   - enabled: 1
     path: Assets/cutscene Scenes/after purify/after purify.unity
     guid: 7276b4ba75c1edf4689d63861e777b02
@@ -47,4 +65,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RestRoom.unity
     guid: 6bff1da19c014ed438e6b5a8bfff9eac
+  - enabled: 1
+    path: Assets/Scenes/MilitarryRoom.unity
+    guid: 291f85e880cebc246a7bf74731b1cfd5
+  - enabled: 1
+    path: Assets/cutscene Scenes/m100/m100.unity
+    guid: 1a13c117a6e627848928cdc1b796c1de
+  - enabled: 1
+    path: Assets/Scenes/RestRoomPost.unity
+    guid: 73deb1dc4068e6940825558c23760d7c
+  - enabled: 1
+    path: Assets/Scenes/KichenBattle.unity
+    guid: d4ac56ee618dee24f9fbf53cc3123b84
+  - enabled: 1
+    path: Assets/Scenes/SR.Room1Battle.unity
+    guid: 6446cb9c81e5eeb40a97568d1174432f
+  - enabled: 1
+    path: Assets/Scenes/SR.Room1.2Batle.unity
+    guid: 1f3d647fe39e5d64d90319662460a279
+  - enabled: 1
+    path: Assets/Scenes/SurgeonRoom1.unity
+    guid: 2a3c8b91ba71f9b48be798f0ba83abcb
   m_configObjects: {}

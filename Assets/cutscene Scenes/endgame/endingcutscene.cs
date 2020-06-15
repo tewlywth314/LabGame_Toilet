@@ -35,7 +35,7 @@ public class endingcutscene : MonoBehaviour
 
             if (loop == 9)
             {
-                SceneManager.LoadSceneAsync("endingscene");
+                SceneManager.LoadSceneAsync("menu");
             }
         }
     }

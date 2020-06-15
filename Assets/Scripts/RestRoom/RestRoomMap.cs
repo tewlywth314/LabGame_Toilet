@@ -7,6 +7,7 @@ public class RestRoomMap : MonoBehaviour
     public GameObject RestBattle;
     public GameObject Kitchen;
     public GameObject punch;
+    public GameObject Millitarry;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,10 @@ public class RestRoomMap : MonoBehaviour
             RestBattle.SetActive(false);
             Kitchen.SetActive(true);
             punch.SetActive(false);
+        }
+        if (DefeatedCheck.Defeated == 2)
+        {
+            Millitarry.SetActive(true);
         }
     }
 }

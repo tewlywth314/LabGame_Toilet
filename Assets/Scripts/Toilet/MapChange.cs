@@ -10,11 +10,16 @@ public class MapChange : MonoBehaviour
     public string Scenename;
     private int havechangemap;
     // Start is called before the first frame update
+    private void Awake()
+    {
+        
+    }
     void Start()
     {
         havechangemap = PlayerPrefs.GetInt("Change");
         if(havechangemap == 0)
         {
+            Debug.Log("Do");
             player.transform.position = Mapchanger.transform.position;
             PlayerPrefs.SetInt("Change", 1);
         }

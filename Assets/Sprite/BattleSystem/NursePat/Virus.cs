@@ -7,9 +7,11 @@ public class Virus : MonoBehaviour
     // Start is called before the first frame update
     public float speed;
     private Transform target;
+    public Vector3 error;
 
     void Start()
     {
+        error = new Vector3(0.6f, -2.3f, 0);
         target = GameObject.FindGameObjectWithTag("Heart").GetComponent<Transform>();
     }
 
@@ -18,7 +20,7 @@ public class Virus : MonoBehaviour
     {
         if (Vector3.Distance(transform.position, target.position) > 0.1)
         {
-            transform.position = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, target.position-error, speed * Time.deltaTime);
         }
         if(BattleSystem.EnemFin == true)
         {

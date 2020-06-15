@@ -579,6 +579,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tew: 0
   nexttext: {fileID: 468401095428242880}
+  DocBattle: SR.Room2Battle
 --- !u!114 &6219754667836472254
 MonoBehaviour:
   m_ObjectHideFlags: 0

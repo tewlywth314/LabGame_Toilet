@@ -54,6 +54,7 @@ public class WeaponDropdown : MonoBehaviour
             {
                 multi = itemZ.MultiplierDamage;
                 id = itemZ.ID;
+                Debug.Log(id);
                 PolarizedDmg = itemZ.PolarizedDamage;
             }
 

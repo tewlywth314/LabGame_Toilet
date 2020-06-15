@@ -12,6 +12,7 @@ public class Doctorscene : MonoBehaviour
     public bool tew = false;
     VideoPlayer video;
     public GameObject nexttext;
+    public string DocBattle;
     public void Start()
     {
         video = GameObject.Find("SB1").GetComponent<VideoPlayer>();
@@ -35,7 +36,7 @@ public class Doctorscene : MonoBehaviour
 
             if (loop == 3)
             {
-                SceneManager.LoadSceneAsync("hospitalroom2");
+                SceneManager.LoadSceneAsync(DocBattle);
             }
         }
     }
