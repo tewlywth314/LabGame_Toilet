@@ -35,7 +35,11 @@ public class skipsceneafterpurify : MonoBehaviour
 
             if (loop == 3)
             {
+<<<<<<< HEAD
                 SceneManager.LoadSceneAsync("Storageroom");
+=======
+                SceneManager.LoadSceneAsync("SStorage");
+>>>>>>> master
             }
         }
     }

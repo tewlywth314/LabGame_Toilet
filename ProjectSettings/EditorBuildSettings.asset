@@ -6,30 +6,84 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/menu/menu.unity
+    path: Assets/Scenes/Turtorial.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/StorageRoom.unity
+    guid: bbae05e86d55153418805658ab6a5bf8
+  - enabled: 1
+    path: Assets/Scenes/StorageBattle.unity
+    guid: c64043e9af4638e41aa2f0d933108444
+  - enabled: 1
+    path: Assets/Scenes/Scenes 0/menu.unity
     guid: 5827968ae39293f458d18c30b97e7b82
   - enabled: 1
     path: Assets/cutscene Scenes/Start cutscene/start cutscene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    guid: eadacc15601bba94ca5b2217ff18c83e
   - enabled: 1
-    path: Assets/cutscene Scenes/before purify/before purify.unity
-    guid: c1dbad69514e88a4fbef172d417b69cb
-  - enabled: 1
-    path: Assets/cutscene Scenes/after purify/after purify.unity
-    guid: 7276b4ba75c1edf4689d63861e777b02
+    path: Assets/cutscene Scenes/bully cutscene/bully scene.unity
+    guid: 9acea8b73f4ef414cbae326b938a67b9
   - enabled: 1
     path: Assets/Scenes/death scene/deathscene.unity
     guid: fe89f7c759888a749a8d686da68c5da1
   - enabled: 1
-    path: Assets/Scenes/death scene/test.unity
-    guid: 77da1b4e3d506d841bb4bd106942e7c5
+    path: Assets/cutscene Scenes/before purify/before purify.unity
+    guid: c1dbad69514e88a4fbef172d417b69cb
+  - enabled: 1
+    path: Assets/Scenes/StoragePolarized.unity
+    guid: 4c66c55940c4d1f439889e5dc1e2ccf4
+  - enabled: 1
+    path: Assets/Scenes/GovernmentRoom.unity
+    guid: f06e102d9e6312e4c87d76c65ee19d15
+  - enabled: 1
+    path: Assets/cutscene Scenes/Doctor/Doctorscene.unity
+    guid: 0da4403e01b09d14db30cff1e74f9e95
+  - enabled: 1
+    path: Assets/Scenes/G.RoomBattle.unity
+    guid: 479b286dae7e35c428d2f12bb3e93fca
   - enabled: 1
     path: Assets/cutscene Scenes/endgame/endgame.unity
     guid: 4860626139898784b86b00a2646e003f
   - enabled: 1
-    path: Assets/Scenes/endingscene/endingscene.unity
-    guid: eeb5c6a13f1a4ba42987f8b4636dec13
+    path: Assets/Scenes/RestRoomBattle.unity
+    guid: eda2b540470d1a347a5848641e71fb72
   - enabled: 1
-    path: Assets/cutscene Scenes/Doctor/Doctorscene.unity
-    guid: 0da4403e01b09d14db30cff1e74f9e95
+    path: Assets/Scenes/SR.Room2Battle.unity
+    guid: db0c8f762e790ff4481991be18b5c2b8
+  - enabled: 1
+    path: Assets/Scenes/SurgeonRoom2.unity
+    guid: 49b9d6be753ee3f4c80b49686e88c341
+  - enabled: 1
+    path: Assets/cutscene Scenes/after purify/after purify.unity
+    guid: 7276b4ba75c1edf4689d63861e777b02
+  - enabled: 1
+    path: Assets/Scenes/SStorage.unity
+    guid: 01d91a6af91c5a541aef7a0beffb36ed
+  - enabled: 1
+    path: Assets/Scenes/Kitchen.unity
+    guid: bf460736e4655ef4f83ecaa090183be9
+  - enabled: 1
+    path: Assets/Scenes/RestRoom.unity
+    guid: 6bff1da19c014ed438e6b5a8bfff9eac
+  - enabled: 1
+    path: Assets/Scenes/MilitarryRoom.unity
+    guid: 291f85e880cebc246a7bf74731b1cfd5
+  - enabled: 1
+    path: Assets/cutscene Scenes/m100/m100.unity
+    guid: 1a13c117a6e627848928cdc1b796c1de
+  - enabled: 1
+    path: Assets/Scenes/RestRoomPost.unity
+    guid: 73deb1dc4068e6940825558c23760d7c
+  - enabled: 1
+    path: Assets/Scenes/KichenBattle.unity
+    guid: d4ac56ee618dee24f9fbf53cc3123b84
+  - enabled: 1
+    path: Assets/Scenes/SR.Room1Battle.unity
+    guid: 6446cb9c81e5eeb40a97568d1174432f
+  - enabled: 1
+    path: Assets/Scenes/SR.Room1.2Batle.unity
+    guid: 1f3d647fe39e5d64d90319662460a279
+  - enabled: 1
+    path: Assets/Scenes/SurgeonRoom1.unity
+    guid: 2a3c8b91ba71f9b48be798f0ba83abcb
   m_configObjects: {}

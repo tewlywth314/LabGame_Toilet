@@ -1005,11 +1005,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Soilder (Injured)
+<<<<<<< HEAD
   MaxHp: 275
   MaxPolarized: 300
   damage: 5
   CurrentHp: 275
   CurrentPolarized: 300
+=======
+  MaxHp: 300
+  MaxPolarized: 225
+  damage: 5
+  CurrentHp: 300
+  CurrentPolarized: 225
+>>>>>>> master
   PolarizedWepID: 0400000005000000
 --- !u!114 &1024722384561694583
 MonoBehaviour:

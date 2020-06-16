@@ -1622,11 +1622,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Nurse
+<<<<<<< HEAD
   MaxHp: 200
   MaxPolarized: 225
   damage: 10
   CurrentHp: 200
   CurrentPolarized: 225
+=======
+  MaxHp: 325
+  MaxPolarized: 275
+  damage: 10
+  CurrentHp: 325
+  CurrentPolarized: 275
+>>>>>>> master
   PolarizedWepID: 0200000005000000
 --- !u!114 &285306435418619961
 MonoBehaviour:

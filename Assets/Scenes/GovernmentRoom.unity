@@ -2132,6 +2132,7 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 1753531712174198026, guid: 563cf7277e101f74db6473354fa0be3d,
         type: 3}
       propertyPath: PolarizedWepID.Array.size
@@ -2142,6 +2143,8 @@ PrefabInstance:
       propertyPath: PolarizedWepID.Array.data[0]
       value: 5
       objectReference: {fileID: 0}
+=======
+>>>>>>> master
     - target: {fileID: 5466043939301130952, guid: 563cf7277e101f74db6473354fa0be3d,
         type: 3}
       propertyPath: m_Name

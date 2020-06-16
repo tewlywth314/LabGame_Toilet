@@ -1,7 +1,12 @@
 {
 	"ItemName":"Kiwi",
+<<<<<<< HEAD
 	"MultiplierDamage":2.0,
 	"PolarizedDamage": 30,
+=======
+	"MultiplierDamage":3.0,
+	"PolarizedDamage":30,
+>>>>>>> master
 	"Amounts":1,
 	"ID":4
 	

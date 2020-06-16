@@ -1094,12 +1094,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Marshall
+<<<<<<< HEAD
   MaxHp: 1500
   MaxPolarized: 500
   damage: 5
   CurrentHp: 1500
   CurrentPolarized: 500
   PolarizedWepID: 05000000
+=======
+  MaxHp: 1000
+  MaxPolarized: 500
+  damage: 5
+  CurrentHp: 1000
+  CurrentPolarized: 500
+  PolarizedWepID: 0500000004000000
+>>>>>>> master
 --- !u!1 &5644514331813293488
 GameObject:
   m_ObjectHideFlags: 0

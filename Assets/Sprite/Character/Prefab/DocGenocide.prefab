@@ -1052,6 +1052,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EnemyAttack:
+<<<<<<< HEAD
+=======
+  - {fileID: 7840261063663802780, guid: b62f5d68d9859ef45bb128ce22deb4f5, type: 3}
+>>>>>>> master
   - {fileID: 2885386482190788584, guid: 3e7a5833ccec9df4a8412266bfd24058, type: 3}
 --- !u!1 &5495138559935594325
 GameObject:

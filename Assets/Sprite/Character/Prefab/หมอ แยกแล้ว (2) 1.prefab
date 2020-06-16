@@ -345,10 +345,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Doctar
+<<<<<<< HEAD
   MaxHp: 1000
   MaxPolarized: 400
   damage: 7.5
   CurrentHp: 1000
+=======
+  MaxHp: 800
+  MaxPolarized: 400
+  damage: 10
+  CurrentHp: 800
+>>>>>>> master
   CurrentPolarized: 400
   PolarizedWepID: 05000000
 --- !u!114 &4742357878756519405

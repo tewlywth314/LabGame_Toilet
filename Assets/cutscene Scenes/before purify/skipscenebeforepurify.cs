@@ -35,7 +35,11 @@ public class skipscenebeforepurify : MonoBehaviour
 
             if (loop == 7)
             {
+<<<<<<< HEAD
                 SceneManager.LoadSceneAsync("Storageroom");
+=======
+                SceneManager.LoadSceneAsync("StoragePolarized");
+>>>>>>> master
             }
         }
     }

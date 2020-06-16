@@ -178,6 +178,10 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
+=======
+>>>>>>> master
   m_Size: {x: 6.063129, y: 5.141035, z: 5.4920216}
   m_Center: {x: 0.29662892, y: 0.44277644, z: -2.6460109}
 --- !u!212 &49200187
@@ -337,6 +341,14 @@ Transform:
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &156753254
+<<<<<<< HEAD
+========
+  m_Size: {x: 2.498787, y: 61.485176, z: 19.102783}
+  m_Center: {x: 0.74939346, y: 11.465496, z: -4.3016586}
+--- !u!1 &174799526
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+>>>>>>> master
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -452,10 +464,111 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
+  m_GameObject: {fileID: 162535525}
+========
+  m_GameObject: {fileID: 174799526}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &174799532
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174799526}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &179004532 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8570251457057128626, guid: fac775435f3190743a696be911394a16,
+    type: 3}
+  m_PrefabInstance: {fileID: 1922592362}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &243277911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 243277912}
+  - component: {fileID: 243277914}
+  - component: {fileID: 243277913}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &243277912
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243277911}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1428614869}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -232, y: 497}
+  m_SizeDelta: {x: 25.2, y: 215.9}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &243277913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243277911}
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+=======
   m_GameObject: {fileID: 162535525}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+>>>>>>> master
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -464,6 +577,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
+=======
+>>>>>>> master
   m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -577,11 +694,32 @@ RectTransform:
   m_SizeDelta: {x: 189.066, y: 45.675}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &162535528
+<<<<<<< HEAD
+========
+  m_Sprite: {fileID: -3633983936102803703, guid: ff9a136c7864cd44e8dba7b352900d01,
+    type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &243277914
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+>>>>>>> master
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
+=======
+>>>>>>> master
   m_GameObject: {fileID: 162535525}
   m_CullTransparentMesh: 0
 --- !u!1 &243785816
@@ -979,6 +1117,14 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &541828813
+<<<<<<< HEAD
+========
+  m_GameObject: {fileID: 243277911}
+  m_CullTransparentMesh: 0
+--- !u!1 &388670903
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+>>>>>>> master
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -986,22 +1132,49 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
+=======
+>>>>>>> master
   - component: {fileID: 541828814}
   - component: {fileID: 541828816}
   - component: {fileID: 541828815}
   m_Layer: 5
   m_Name: Image
+<<<<<<< HEAD
+========
+  - component: {fileID: 388670904}
+  - component: {fileID: 388670905}
+  m_Layer: 0
+  m_Name: Map
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+>>>>>>> master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
 --- !u!224 &541828814
 RectTransform:
+========
+--- !u!4 &388670904
+Transform:
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+--- !u!224 &541828814
+RectTransform:
+>>>>>>> master
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
+=======
+>>>>>>> master
   m_GameObject: {fileID: 541828813}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1017,11 +1190,35 @@ RectTransform:
   m_SizeDelta: {x: 26.413, y: 9.77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &541828815
+<<<<<<< HEAD
+========
+  m_GameObject: {fileID: 388670903}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.846656, y: -1.6314187, z: 7.0595856}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1453315449}
+  - {fileID: 1887538586}
+  - {fileID: 174799527}
+  - {fileID: 90895691}
+  - {fileID: 832607722}
+  - {fileID: 107942129}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &388670905
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+>>>>>>> master
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
+=======
+>>>>>>> master
   m_GameObject: {fileID: 541828813}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1971,10 +2168,26 @@ Transform:
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1130035355
+<<<<<<< HEAD
+========
+  m_GameObject: {fileID: 388670903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f0fe8586fcfce4b8626965d937c02e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &532788176
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+>>>>>>> master
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
+=======
+>>>>>>> master
     m_TransformParent: {fileID: 137132540}
     m_Modifications:
     - target: {fileID: 4401653807294953868, guid: 39a393efb999ab4419356a130a7df182,
@@ -1991,6 +2204,27 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -83.41
+<<<<<<< HEAD
+========
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -6999835982869893652, guid: d6715df5fd89e194b8063216a8acecb6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.799168
+      objectReference: {fileID: 0}
+    - target: {fileID: -6999835982869893652, guid: d6715df5fd89e194b8063216a8acecb6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.2414187
+      objectReference: {fileID: 0}
+    - target: {fileID: -6999835982869893652, guid: d6715df5fd89e194b8063216a8acecb6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -41.73
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+>>>>>>> master
       objectReference: {fileID: 0}
     - target: {fileID: 4401653807294953868, guid: 39a393efb999ab4419356a130a7df182,
         type: 3}
@@ -2015,7 +2249,15 @@ PrefabInstance:
     - target: {fileID: 4401653807294953868, guid: 39a393efb999ab4419356a130a7df182,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
       value: 1
+========
+      value: 3
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+      value: 1
+>>>>>>> master
       objectReference: {fileID: 0}
     - target: {fileID: 4401653807294953868, guid: 39a393efb999ab4419356a130a7df182,
         type: 3}
@@ -2027,16 +2269,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
     - target: {fileID: 4401653807294953868, guid: 39a393efb999ab4419356a130a7df182,
+========
+    - target: {fileID: -6999835982869893652, guid: d6715df5fd89e194b8063216a8acecb6,
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+    - target: {fileID: 4401653807294953868, guid: 39a393efb999ab4419356a130a7df182,
+>>>>>>> master
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
     - target: {fileID: 6221746301243606789, guid: 39a393efb999ab4419356a130a7df182,
+========
+    - target: {fileID: -1404572164647417738, guid: d6715df5fd89e194b8063216a8acecb6,
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+    - target: {fileID: 6221746301243606789, guid: 39a393efb999ab4419356a130a7df182,
+>>>>>>> master
         type: 3}
       propertyPath: m_Name
       value: Punch
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
+=======
+>>>>>>> master
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39a393efb999ab4419356a130a7df182, type: 3}
 --- !u!4 &1130035356 stripped
@@ -2186,6 +2448,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Punch (1)
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+========
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+>>>>>>> master
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39a393efb999ab4419356a130a7df182, type: 3}
 --- !u!4 &1266793493 stripped
@@ -2310,9 +2577,19 @@ Transform:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8570251457057128626, guid: fac775435f3190743a696be911394a16,
     type: 3}
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
   m_PrefabInstance: {fileID: 755666973}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1553147060
+========
+--- !u!1 &832607721
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+  m_PrefabInstance: {fileID: 755666973}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1553147060
+>>>>>>> master
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2320,6 +2597,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
+=======
+>>>>>>> master
   - component: {fileID: 1553147065}
   - component: {fileID: 1553147064}
   - component: {fileID: 1553147063}
@@ -2327,17 +2608,42 @@ GameObject:
   - component: {fileID: 1553147061}
   m_Layer: 5
   m_Name: Canvas
+<<<<<<< HEAD
+========
+  - component: {fileID: 832607722}
+  - component: {fileID: 832607723}
+  m_Layer: 0
+  m_Name: GameObject (1)
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+>>>>>>> master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
   m_IsActive: 0
 --- !u!114 &1553147061
 MonoBehaviour:
+========
+  m_IsActive: 1
+--- !u!4 &832607722
+Transform:
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+  m_IsActive: 0
+--- !u!114 &1553147061
+MonoBehaviour:
+>>>>>>> master
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
+=======
+>>>>>>> master
   m_GameObject: {fileID: 1553147060}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2352,10 +2658,29 @@ MonoBehaviour:
   - go and eat some shit toilet !!
 --- !u!114 &1553147062
 MonoBehaviour:
+<<<<<<< HEAD
+========
+  m_GameObject: {fileID: 832607721}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 31.01, y: 0, z: -49.36}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 388670904}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &832607723
+BoxCollider:
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+>>>>>>> master
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
+=======
+>>>>>>> master
   m_GameObject: {fileID: 1553147060}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2369,10 +2694,47 @@ MonoBehaviour:
     m_Bits: 4294967295
 --- !u!114 &1553147063
 MonoBehaviour:
+<<<<<<< HEAD
+========
+  m_GameObject: {fileID: 832607721}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.498787, y: 25.614826, z: 19.19432}
+  m_Center: {x: 0.74939346, y: 12.307413, z: 0.30290985}
+--- !u!1 &990838924
+GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 990838927}
+  - component: {fileID: 990838926}
+  - component: {fileID: 990838925}
+  - component: {fileID: 990838928}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &990838925
+AudioListener:
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+>>>>>>> master
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
+=======
+>>>>>>> master
   m_GameObject: {fileID: 1553147060}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2391,10 +2753,23 @@ MonoBehaviour:
   m_DynamicPixelsPerUnit: 1
 --- !u!223 &1553147064
 Canvas:
+<<<<<<< HEAD
+========
+  m_GameObject: {fileID: 990838924}
+  m_Enabled: 1
+--- !u!20 &990838926
+Camera:
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+>>>>>>> master
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
+=======
+>>>>>>> master
   m_GameObject: {fileID: 1553147060}
   m_Enabled: 1
   serializedVersion: 3
@@ -2412,10 +2787,58 @@ Canvas:
   m_TargetDisplay: 0
 --- !u!224 &1553147065
 RectTransform:
+<<<<<<< HEAD
+========
+  m_GameObject: {fileID: 990838924}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 9
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &990838927
+Transform:
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+>>>>>>> master
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
+=======
+>>>>>>> master
   m_GameObject: {fileID: 1553147060}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -40.79}
@@ -2431,6 +2854,35 @@ RectTransform:
   m_SizeDelta: {x: 22.63, y: 7.63}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1563973159
+<<<<<<< HEAD
+========
+  m_GameObject: {fileID: 990838924}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -12.5, y: 5.9, z: -54.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &990838928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 990838924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e6030e786aec544dbf6520143a20588, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 179004532}
+  x1: -12.5
+  x2: -12.5
+--- !u!1 &1002918445
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+>>>>>>> master
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2438,16 +2890,33 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
+=======
+>>>>>>> master
   - component: {fileID: 1563973163}
   - component: {fileID: 1563973162}
   - component: {fileID: 1563973161}
   - component: {fileID: 1563973160}
   m_Layer: 0
   m_Name: SR.room2
+<<<<<<< HEAD
+========
+  - component: {fileID: 1002918447}
+  - component: {fileID: 1002918446}
+  m_Layer: 0
+  m_Name: Directional Light
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+>>>>>>> master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
+=======
+>>>>>>> master
   m_IsActive: 0
 --- !u!114 &1563973160
 MonoBehaviour:
@@ -2479,10 +2948,70 @@ BoxCollider:
   m_Center: {x: 0.29662892, y: 0.44277644, z: -2.6460109}
 --- !u!212 &1563973162
 SpriteRenderer:
+<<<<<<< HEAD
+========
+  m_IsActive: 1
+--- !u!108 &1002918446
+Light:
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+>>>>>>> master
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
+  m_GameObject: {fileID: 1563973159}
+========
+  m_GameObject: {fileID: 1002918445}
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
+=======
   m_GameObject: {fileID: 1563973159}
   m_Enabled: 1
   m_CastShadows: 0
@@ -2493,6 +3022,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RenderingLayerMask: 1
+>>>>>>> master
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
@@ -2528,11 +3058,31 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1563973163
+<<<<<<< HEAD
+========
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1002918447
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+>>>>>>> master
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
+=======
+>>>>>>> master
   m_GameObject: {fileID: 1563973159}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -8.68, y: 1.34, z: -44.5}
@@ -2542,6 +3092,17 @@ Transform:
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1610073379
+<<<<<<< HEAD
+========
+  m_GameObject: {fileID: 1002918445}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1235506634
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2549,9 +3110,123 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+  - component: {fileID: 1235506638}
+  - component: {fileID: 1235506637}
+  - component: {fileID: 1235506636}
+  - component: {fileID: 1235506635}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1235506635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235506634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1235506636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235506634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &1235506637
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235506634}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1235506638
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235506634}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1428614869}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!1 &1400901698
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+>>>>>>> master
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
   - component: {fileID: 1610073380}
   - component: {fileID: 1610073382}
   - component: {fileID: 1610073381}
+========
+  - component: {fileID: 1400901699}
+  - component: {fileID: 1400901701}
+  - component: {fileID: 1400901700}
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+  - component: {fileID: 1610073380}
+  - component: {fileID: 1610073382}
+  - component: {fileID: 1610073381}
+>>>>>>> master
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -2559,18 +3234,42 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
 --- !u!224 &1610073380
+========
+--- !u!224 &1400901699
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+--- !u!224 &1610073380
+>>>>>>> master
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
   m_GameObject: {fileID: 1610073379}
+========
+  m_GameObject: {fileID: 1400901698}
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+  m_GameObject: {fileID: 1610073379}
+>>>>>>> master
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
   m_Father: {fileID: 654660698}
+========
+  m_Father: {fileID: 2009265081}
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+  m_Father: {fileID: 654660698}
+>>>>>>> master
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -2578,13 +3277,29 @@ RectTransform:
   m_AnchoredPosition: {x: -113, y: 15}
   m_SizeDelta: {x: 481.1, y: 88.5}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
 --- !u!114 &1610073381
+========
+--- !u!114 &1400901700
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+--- !u!114 &1610073381
+>>>>>>> master
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
   m_GameObject: {fileID: 1610073379}
+========
+  m_GameObject: {fileID: 1400901698}
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+  m_GameObject: {fileID: 1610073379}
+>>>>>>> master
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -2596,7 +3311,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
   m_text: "        \rNursing room"
+========
+  m_text: STORAGE ROOM
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+  m_text: "        \rNursing room"
+>>>>>>> master
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -2664,11 +3387,25 @@ MonoBehaviour:
   m_pageToDisplay: 1
   m_margin: {x: 0, y: 0, z: -520.30835, w: 0}
   m_textInfo:
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
+=======
+>>>>>>> master
     textComponent: {fileID: 1610073381}
     characterCount: 21
     spriteCount: 0
     spaceCount: 9
     wordCount: 3
+<<<<<<< HEAD
+========
+    textComponent: {fileID: 1400901700}
+    characterCount: 12
+    spriteCount: 0
+    spaceCount: 1
+    wordCount: 2
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+>>>>>>> master
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -2688,12 +3425,172 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
 --- !u!222 &1610073382
+CanvasRenderer:
+========
+--- !u!222 &1400901701
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400901698}
+  m_CullTransparentMesh: 0
+--- !u!1 &1428614868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1428614869}
+  - component: {fileID: 1428614870}
+  - component: {fileID: 1428614871}
+  m_Layer: 5
+  m_Name: MapName
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1428614869
+RectTransform:
+=======
+--- !u!222 &1610073382
+CanvasRenderer:
+>>>>>>> master
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1428614868}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 243277912}
+  - {fileID: 1843460020}
+  - {fileID: 2009265081}
+  m_Father: {fileID: 1235506638}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 303}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1428614870
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428614868}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 569a68f6e99d3ca4c9b0a88cee063aa8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1428614871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428614868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c976589f694a5b4469b7d6aa71e08016, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1453315447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1453315449}
+  - component: {fileID: 1453315448}
+  m_Layer: 0
+  m_Name: mr.muscle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1453315448
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453315447}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: baede201b1c778a43bd651e298c357ae, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 33.554432, y: 10.24}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1453315449
+Transform:
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
+=======
+>>>>>>> master
   m_GameObject: {fileID: 1610073379}
   m_CullTransparentMesh: 0
 --- !u!1001 &1818240546
@@ -2766,6 +3663,20 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa2cb2ee51d5c114bbcb8a308328f325, type: 3}
 --- !u!1 &2050042570
+<<<<<<< HEAD
+========
+  m_GameObject: {fileID: 1453315447}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.5681133, y: 7.641419, z: -48.675304}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 388670904}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1569027937
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+>>>>>>> master
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2823,9 +3734,95 @@ Transform:
   m_LocalScale: {x: 0.834462, y: 0.812612, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2091949661
+========
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1843460019
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1843460020}
+  - component: {fileID: 1843460022}
+  - component: {fileID: 1843460021}
+  m_Layer: 5
+  m_Name: Image (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1843460020
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843460019}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1428614869}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 314, y: 497}
+  m_SizeDelta: {x: 25.2, y: 215.9}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1843460021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843460019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -3633983936102803703, guid: ff9a136c7864cd44e8dba7b352900d01,
+    type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1843460022
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843460019}
+  m_CullTransparentMesh: 0
+--- !u!1 &1887538585
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2091949661
+>>>>>>> master
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2915,6 +3912,7 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 720682167575714745, guid: f0e66a609ff09a646b16658c9d92ecec,
         type: 3}
       propertyPath: PolarizedWepID.Array.size
@@ -2935,6 +3933,8 @@ PrefabInstance:
       propertyPath: CurrentPolarized
       value: 20
       objectReference: {fileID: 0}
+=======
+>>>>>>> master
     - target: {fileID: 4037826522903466129, guid: f0e66a609ff09a646b16658c9d92ecec,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2973,7 +3973,11 @@ PrefabInstance:
     - target: {fileID: 4037826522903466129, guid: f0e66a609ff09a646b16658c9d92ecec,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
+      value: 2
+=======
       value: 1
+>>>>>>> master
       objectReference: {fileID: 0}
     - target: {fileID: 4037826522903466129, guid: f0e66a609ff09a646b16658c9d92ecec,
         type: 3}
@@ -3004,11 +4008,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 1106965405138566421, guid: 0d6065c6b7bc9e84383a81ec5c1f5417,
         type: 3}
       propertyPath: MaxPolarized
       value: 225
       objectReference: {fileID: 0}
+=======
+>>>>>>> master
     - target: {fileID: 2814949275294056381, guid: 0d6065c6b7bc9e84383a81ec5c1f5417,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3029,7 +4036,50 @@ PrefabInstance:
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
     - target: {fileID: 2814949275294056381, guid: 0d6065c6b7bc9e84383a81ec5c1f5417,
+========
+    - target: {fileID: 1379051304293136955, guid: fac775435f3190743a696be911394a16,
+        type: 3}
+      propertyPath: speed
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379051304293136955, guid: fac775435f3190743a696be911394a16,
+        type: 3}
+      propertyPath: jumpVelocity
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379051304293136955, guid: fac775435f3190743a696be911394a16,
+        type: 3}
+      propertyPath: MoveLeft
+      value: 276
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379051304293136955, guid: fac775435f3190743a696be911394a16,
+        type: 3}
+      propertyPath: MoveRight
+      value: 275
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379051304293136955, guid: fac775435f3190743a696be911394a16,
+        type: 3}
+      propertyPath: MoveUp
+      value: 273
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379051304293136955, guid: fac775435f3190743a696be911394a16,
+        type: 3}
+      propertyPath: Grounded
+      value: 
+      objectReference: {fileID: 174799526}
+    - target: {fileID: 1379051304293136955, guid: fac775435f3190743a696be911394a16,
+        type: 3}
+      propertyPath: Jumped
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3730572045149158060, guid: fac775435f3190743a696be911394a16,
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+    - target: {fileID: 2814949275294056381, guid: 0d6065c6b7bc9e84383a81ec5c1f5417,
+>>>>>>> master
         type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
@@ -3071,4 +4121,157 @@ PrefabInstance:
         \u0E41\u0E22\u0E01\u0E41\u0E25\u0E49\u0E27"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Scenes/SurgeonRoom1.unity
   m_SourcePrefab: {fileID: 100100000, guid: 0d6065c6b7bc9e84383a81ec5c1f5417, type: 3}
+========
+  m_SourcePrefab: {fileID: 100100000, guid: fac775435f3190743a696be911394a16, type: 3}
+--- !u!1001 &1991313071
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -6869827584458716580, guid: a3b943e152079664a8a2316719f0b18e,
+        type: 3}
+      propertyPath: m_Name
+      value: StorageNPC
+      objectReference: {fileID: 0}
+    - target: {fileID: 2831210660295904274, guid: a3b943e152079664a8a2316719f0b18e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 2831210660295904274, guid: a3b943e152079664a8a2316719f0b18e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 2831210660295904274, guid: a3b943e152079664a8a2316719f0b18e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -42.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 2831210660295904274, guid: a3b943e152079664a8a2316719f0b18e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2831210660295904274, guid: a3b943e152079664a8a2316719f0b18e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2831210660295904274, guid: a3b943e152079664a8a2316719f0b18e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2831210660295904274, guid: a3b943e152079664a8a2316719f0b18e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2831210660295904274, guid: a3b943e152079664a8a2316719f0b18e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2831210660295904274, guid: a3b943e152079664a8a2316719f0b18e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2831210660295904274, guid: a3b943e152079664a8a2316719f0b18e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2831210660295904274, guid: a3b943e152079664a8a2316719f0b18e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 2260619517958767311, guid: a3b943e152079664a8a2316719f0b18e,
+    type: 3}
+--- !u!1 &2009265080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2009265081}
+  - component: {fileID: 2009265083}
+  - component: {fileID: 2009265082}
+  m_Layer: 5
+  m_Name: Board
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2009265081
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009265080}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1400901699}
+  m_Father: {fileID: 1428614869}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 29, y: 335.4}
+  m_SizeDelta: {x: 909.8, y: 192.8}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2009265082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009265080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -3471302063723077867, guid: ff9a136c7864cd44e8dba7b352900d01,
+    type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2009265083
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009265080}
+  m_CullTransparentMesh: 0
+>>>>>>>> master:Assets/Scenes/StorageRoom.unity
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: 0d6065c6b7bc9e84383a81ec5c1f5417, type: 3}
+>>>>>>> master

@@ -1466,7 +1466,11 @@ MonoBehaviour:
   Name: RestRoomMan
   MaxHp: 300
   MaxPolarized: 150
+<<<<<<< HEAD
   damage: 10
+=======
+  damage: 12
+>>>>>>> master
   CurrentHp: 300
   CurrentPolarized: 150
   PolarizedWepID: 0000000005000000

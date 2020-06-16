@@ -2562,6 +2562,7 @@ PrefabInstance:
       propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 2643364632624904198, guid: 642fdac3074b5bf47a273b40372f5c1e,
         type: 3}
       propertyPath: PolarizedWepID.Array.size
@@ -2592,6 +2593,8 @@ PrefabInstance:
       propertyPath: damage
       value: 6
       objectReference: {fileID: 0}
+=======
+>>>>>>> master
     - target: {fileID: 2982696675477647327, guid: 642fdac3074b5bf47a273b40372f5c1e,
         type: 3}
       propertyPath: m_Name

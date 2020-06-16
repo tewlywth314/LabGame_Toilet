@@ -1,6 +1,10 @@
 {
 	"ItemName":"Saboo",
+<<<<<<< HEAD
 	"MultiplierDamage": 0.5,
+=======
+	"MultiplierDamage":1.0,
+>>>>>>> master
 	"PolarizedDamage":20.0,
 	"Amounts":1,
 	"ID":5

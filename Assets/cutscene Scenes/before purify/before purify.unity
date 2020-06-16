@@ -121,6 +121,41 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
+=======
+--- !u!1 &19211638 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8175170580615887690, guid: f4065f2001fb4bb4c9b4cd1869d76053,
+    type: 3}
+  m_PrefabInstance: {fileID: 1791144016284239778}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &19211640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19211638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a984860b503a44946ac4cf583a25703d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &19211641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19211638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 386dcf04db2df4b44a023d7cf072ae3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tew: 0
+  nexttext: {fileID: 1664635287}
+>>>>>>> master
 --- !u!1 &206779241
 GameObject:
   m_ObjectHideFlags: 0
@@ -296,6 +331,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+=======
+--- !u!1 &1664635287 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2830745587353388824, guid: f4065f2001fb4bb4c9b4cd1869d76053,
+    type: 3}
+  m_PrefabInstance: {fileID: 1791144016284239778}
+  m_PrefabAsset: {fileID: 0}
+>>>>>>> master
 --- !u!1001 &1791144016284239778
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -444,5 +488,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 32900000, guid: 6a2bd2441c7a9de43ace8687c3aeeb2e,
         type: 3}
+<<<<<<< HEAD
     m_RemovedComponents: []
+=======
+    m_RemovedComponents:
+    - {fileID: 7153805928487971839, guid: f4065f2001fb4bb4c9b4cd1869d76053, type: 3}
+>>>>>>> master
   m_SourcePrefab: {fileID: 100100000, guid: f4065f2001fb4bb4c9b4cd1869d76053, type: 3}

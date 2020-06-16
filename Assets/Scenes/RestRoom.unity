@@ -2585,11 +2585,14 @@ PrefabInstance:
       propertyPath: m_SortingLayer
       value: 2
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 1971061882796722425, guid: 67163f6d1356e7244971bce9947a8c68,
         type: 3}
       propertyPath: damage
       value: 12
       objectReference: {fileID: 0}
+=======
+>>>>>>> master
     - target: {fileID: 2542838255968510161, guid: 67163f6d1356e7244971bce9947a8c68,
         type: 3}
       propertyPath: m_SortingLayerID

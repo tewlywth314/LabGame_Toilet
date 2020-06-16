@@ -1,7 +1,11 @@
 {
 	"ItemName":"Vhee",
 	"MultiplierDamage":5.0,
+<<<<<<< HEAD
 	"PolarizedDamage":25,
+=======
+	"PolarizedDamage":0.50,
+>>>>>>> master
 	"Amounts":1,
 	"ID":2
 	

@@ -35,7 +35,13 @@ public class m100 : MonoBehaviour
 
             if (loop == 5)
             {
+<<<<<<< HEAD
                 SceneManager.LoadSceneAsync("Armoryroom");
+=======
+                QuestAccpeted.Accepted = true;
+                GoAhead.MoveAhead = true;
+                SceneManager.LoadSceneAsync("MilitarryRoom");
+>>>>>>> master
             }
         }
     }

@@ -35,7 +35,11 @@ public class bullyscene : MonoBehaviour
 
             if (loop == 5)
             {
+<<<<<<< HEAD
                 SceneManager.LoadSceneAsync("Storageroom");
+=======
+                SceneManager.LoadSceneAsync("StorageBattle");
+>>>>>>> master
             }
         }
     }
