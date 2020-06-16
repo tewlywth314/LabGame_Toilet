@@ -128,6 +128,7 @@ public class BattleSystem : MonoBehaviour
     }
     IEnumerator EnemyTurn()
     {
+        bool isDead = false;
         WeaponSelectBar.SetActive(false);
         AttackBar.SetActive(false);
         EnemyPatNum = Random.Range(0, enemy.GetComponent<EnemyPattern>().EnemyAttack.Length);
@@ -138,7 +139,7 @@ public class BattleSystem : MonoBehaviour
       
         yield return new WaitUntil(() => EnemFin == true);
         PlayerHeart.SetHeart();
-        bool isDead = heart.isDead;
+        isDead = heart.isDead;
         Debug.Log(isDead);
         if (isDead )
         {
@@ -163,7 +164,7 @@ public class BattleSystem : MonoBehaviour
         GameObject PlayerStand = Instantiate(player, PlayerPos);
         playerUnit = PlayerStand.GetComponent<BattleUnit>();
         
-
+        
         GameObject EnemyStand = Instantiate(enemy, EnemyPos);
         enemyUnit = EnemyStand.GetComponent<BattleUnit>();
 
