@@ -16,6 +16,10 @@ public class DeathScene : MonoBehaviour
         {
             SceneManager.LoadScene(BeforeScene);
         }
-       
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("menu");
+        }
+
     }
 }
