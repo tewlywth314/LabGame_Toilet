@@ -684,12 +684,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Chef
-  MaxHp: 150
-  MaxPolarized: 200
-  damage: 8
-  CurrentHp: 150
-  CurrentPolarized: 200
-  PolarizedWepID: 01000000
+  MaxHp: 500
+  MaxPolarized: 300
+  damage: 7
+  CurrentHp: 500
+  CurrentPolarized: 300
+  PolarizedWepID: 0300000005000000
 --- !u!114 &4332814364259824943
 MonoBehaviour:
   m_ObjectHideFlags: 0

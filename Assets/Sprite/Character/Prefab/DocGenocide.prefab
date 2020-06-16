@@ -1038,7 +1038,7 @@ MonoBehaviour:
   damage: 10
   CurrentHp: 3000
   CurrentPolarized: 10
-  PolarizedWepID: 00000000
+  PolarizedWepID: 07000000
 --- !u!114 &1971431845409724527
 MonoBehaviour:
   m_ObjectHideFlags: 0

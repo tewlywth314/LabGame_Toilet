@@ -99,8 +99,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 877867955093192026}
   m_Bounds:
-    m_Center: {x: -0.5791646, y: -0.031721592, z: 0}
-    m_Extent: {x: 0.6657523, y: 1.0075674, z: 0}
+    m_Center: {x: -1.0602303, y: -0.00033938885, z: 0}
+    m_Extent: {x: 0.65728, y: 0.9246601, z: 0}
   m_UseBatching: 1
 --- !u!1 &2415008882943169629
 GameObject:
@@ -202,8 +202,8 @@ MonoBehaviour:
   - {fileID: 8931678104645666221}
   - {fileID: 6794838811878445604}
   m_Bounds:
-    m_Center: {x: 6.1549997, y: 2.3170004, z: 0}
-    m_Extent: {x: 1.2750001, y: 0.4810902, z: 0}
+    m_Center: {x: -0.00000035762787, y: 0.0020001233, z: 0}
+    m_Extent: {x: 1.2750001, y: 0.48109016, z: 0}
   m_UseBatching: 1
 --- !u!1 &2573913998365432644
 GameObject:
@@ -304,8 +304,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 3925704831018402997}
   m_Bounds:
-    m_Center: {x: -0.05224085, y: -0.070837855, z: 0}
-    m_Extent: {x: 2.594102, y: 1.9864799, z: 0}
+    m_Center: {x: -0.00000023841858, y: 0.000049948692, z: 0}
+    m_Extent: {x: 2.5999997, y: 1.8804998, z: 0}
   m_UseBatching: 1
 --- !u!1 &2826067770065248167
 GameObject:
@@ -406,8 +406,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 5719003468160045021}
   m_Bounds:
-    m_Center: {x: 7.5603056, y: 3.14888, z: 0}
-    m_Extent: {x: 0.59030557, y: 0.86758983, z: 0}
+    m_Center: {x: -0.014694512, y: -0.0011200309, z: 0}
+    m_Extent: {x: 0.5903053, y: 0.86758983, z: 0}
   m_UseBatching: 1
 --- !u!1 &3858120826758362561
 GameObject:
@@ -509,8 +509,8 @@ MonoBehaviour:
   - {fileID: 6794838811878445604}
   - {fileID: 877867955093192026}
   m_Bounds:
-    m_Center: {x: -0.0042048693, y: 0.00000023841858, z: 0}
-    m_Extent: {x: 1.2001252, y: 0.7350001, z: 0}
+    m_Center: {x: -0.004205346, y: 0.00000023841858, z: 0}
+    m_Extent: {x: 1.2001251, y: 0.7350001, z: 0}
   m_UseBatching: 1
 --- !u!1 &3924784988868807213
 GameObject:
@@ -796,7 +796,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 7251120728556017173}
   m_Bounds:
-    m_Center: {x: 7.17953, y: 1.5050002, z: 0}
+    m_Center: {x: -0.00046998262, y: 0.00000023841858, z: 0}
     m_Extent: {x: 0.6266799, y: 0.69500005, z: 0}
   m_UseBatching: 1
 --- !u!1 &6978964009672346308
@@ -898,8 +898,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 8931678104645666221}
   m_Bounds:
-    m_Center: {x: 5.0965295, y: 1.4584246, z: 0}
-    m_Extent: {x: 0.6221199, y: 0.6979351, z: 0}
+    m_Center: {x: -0.0034700036, y: -0.00157547, z: 0}
+    m_Extent: {x: 0.62212, y: 0.69793504, z: 0}
   m_UseBatching: 1
 --- !u!1 &7102412763599850368
 GameObject:
@@ -1006,11 +1006,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Soilder (Injured)
   MaxHp: 300
-  MaxPolarized: 10
+  MaxPolarized: 225
   damage: 5
   CurrentHp: 300
-  CurrentPolarized: 10
-  PolarizedWepID: 00000000
+  CurrentPolarized: 225
+  PolarizedWepID: 0400000005000000
 --- !u!114 &1024722384561694583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1126,6 +1126,6 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 7454389915142286348}
   m_Bounds:
-    m_Center: {x: -0.079185724, y: 0.8099979, z: 0}
-    m_Extent: {x: 2.3700857, y: 1.9579027, z: 0}
+    m_Center: {x: -0.0018901825, y: 0.80419505, z: 0}
+    m_Extent: {x: 2.38311, y: 1.931855, z: 0}
   m_UseBatching: 1

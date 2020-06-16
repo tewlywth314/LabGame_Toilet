@@ -160,7 +160,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 5968842234056941064}
   m_Bounds:
-    m_Center: {x: 0.0018318892, y: 0.0006299019, z: 0}
+    m_Center: {x: 0.0018295944, y: 0.00062942505, z: 0}
     m_Extent: {x: 0.34811, y: 0.6008601, z: 0}
   m_UseBatching: 1
 --- !u!1 &1641972095124998871
@@ -262,7 +262,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 4168571819543680215}
   m_Bounds:
-    m_Center: {x: -0.0016549826, y: -0.0022345185, z: 0}
+    m_Center: {x: -0.0016548634, y: -0.0022340417, z: 0}
     m_Extent: {x: 1.0783451, y: 0.9077651, z: 0}
   m_UseBatching: 1
 --- !u!1 &2127140566379730592
@@ -345,12 +345,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Doctar
-  MaxHp: 3000
-  MaxPolarized: 10
+  MaxHp: 800
+  MaxPolarized: 400
   damage: 10
-  CurrentHp: 3000
-  CurrentPolarized: 10
-  PolarizedWepID: 00000000
+  CurrentHp: 800
+  CurrentPolarized: 400
+  PolarizedWepID: 05000000
 --- !u!114 &4742357878756519405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -497,7 +497,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 6248667174132438012}
   m_Bounds:
-    m_Center: {x: -0.0003568232, y: -0.045354456, z: 0}
+    m_Center: {x: -0.00035598874, y: -0.045354456, z: 0}
     m_Extent: {x: 0.35464507, y: 0.363945, z: 0}
   m_UseBatching: 1
 --- !u!1 &3062682129655687127
@@ -599,7 +599,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 420463378419317210}
   m_Bounds:
-    m_Center: {x: -0.001979977, y: -0.01309517, z: 0}
+    m_Center: {x: -0.0019806623, y: -0.013094932, z: 0}
     m_Extent: {x: 0.38302013, y: 0.34594506, z: 0}
   m_UseBatching: 1
 --- !u!1 &3473928999098972562
@@ -783,7 +783,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 1575331538829364961}
   m_Bounds:
-    m_Center: {x: 0.0012580156, y: -0.0012049675, z: 0}
+    m_Center: {x: 0.0012598336, y: -0.0012049675, z: 0}
     m_Extent: {x: 0.30774, y: 0.308795, z: 0}
   m_UseBatching: 1
 --- !u!1 &3953987052173049308
@@ -976,7 +976,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 3759670524165977103}
   m_Bounds:
-    m_Center: {x: 0.000059962273, y: -0.0009950101, z: 0}
+    m_Center: {x: 0.000059604645, y: -0.0009950101, z: 0}
     m_Extent: {x: 0.29528004, y: 0.31400508, z: 0}
   m_UseBatching: 1
 --- !u!1 &5290030636703958608
@@ -1113,7 +1113,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 1575331538829364961}
   m_Bounds:
-    m_Center: {x: -0.0013739169, y: -0.00036978722, z: 0}
+    m_Center: {x: -0.0013704002, y: -0.0003695488, z: 0}
     m_Extent: {x: 0.33761004, y: 0.39463, z: 0}
   m_UseBatching: 1
 --- !u!1 &5816246449649473948
@@ -1215,7 +1215,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 4548686161671663319}
   m_Bounds:
-    m_Center: {x: 0.0015581548, y: 0.0021203458, z: 0}
+    m_Center: {x: 0.0015594661, y: 0.002120465, z: 0}
     m_Extent: {x: 0.31839994, y: 0.50127995, z: 0}
   m_UseBatching: 1
 --- !u!1 &6081503142338669322
@@ -1318,7 +1318,7 @@ MonoBehaviour:
   - {fileID: 5873113058929914191}
   - {fileID: 8801828219694263396}
   m_Bounds:
-    m_Center: {x: -0.0000019073486, y: -0.002344966, z: 0}
+    m_Center: {x: -0.00000029802322, y: -0.002344966, z: 0}
     m_Extent: {x: 0.91499996, y: 1.462655, z: 0}
   m_UseBatching: 1
 --- !u!1 &6115662279862543177
@@ -1420,7 +1420,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 4548686161671663319}
   m_Bounds:
-    m_Center: {x: -0.33854496, y: -0.09369978, z: 0}
+    m_Center: {x: -0.33854496, y: -0.09369996, z: 0}
     m_Extent: {x: 0.33854496, y: 0.2813, z: 0}
   m_UseBatching: 1
 --- !u!1 &6526903826442952522
@@ -1613,7 +1613,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 7210794572490015091}
   m_Bounds:
-    m_Center: {x: -0.00060993433, y: 0.000059723854, z: 0}
+    m_Center: {x: -0.00061017275, y: 0.000059485435, z: 0}
     m_Extent: {x: 0.40592015, y: 0.60596, z: 0}
   m_UseBatching: 1
 --- !u!1 &8473567145466382046
@@ -1797,6 +1797,6 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 8801828219694263396}
   m_Bounds:
-    m_Center: {x: -0.0023338199, y: 0.00012940168, z: 0}
+    m_Center: {x: -0.0023302436, y: 0.00012904406, z: 0}
     m_Extent: {x: 0.48267007, y: 0.24408999, z: 0}
   m_UseBatching: 1
