@@ -15,33 +15,33 @@ public class SettingsMenu : MonoBehaviour
     Resolution[] resolutions;
     void Start()
     {
-        resolutions = Screen.resolutions;
+        //resolutions = Screen.resolutions;
 
-        resolutionDropdown.ClearOptions();
+        //resolutionDropdown.ClearOptions();
 
-        List<string> listoptions = new List<string>();
+        //List<string> listoptions = new List<string>();
 
-        int allcurrentresolution = 0;
-        for (int i = 0; i < resolutions.Length; i++)
-        {
-            string option = resolutions[i].width + " x " + resolutions[i].height;
-            listoptions.Add(option);
+        //int allcurrentresolution = 0;
+        //for (int i = 0; i < resolutions.Length; i++)
+        //{
+        //    string option = resolutions[i].width + " x " + resolutions[i].height;
+        //    listoptions.Add(option);
 
-            if (resolutions[i].width == Screen.currentResolution.width && resolutions[i].height == Screen.currentResolution.height)
-            {
-                allcurrentresolution = i;
-            }
-        }
-        resolutionDropdown.AddOptions(listoptions);
-        resolutionDropdown.value = allcurrentresolution;
-        resolutionDropdown.RefreshShownValue();
+        //    if (resolutions[i].width == Screen.currentResolution.width && resolutions[i].height == Screen.currentResolution.height)
+        //    {
+        //        allcurrentresolution = i;
+        //    }
+        //}
+        //resolutionDropdown.AddOptions(listoptions);
+        //resolutionDropdown.value = allcurrentresolution;
+        //resolutionDropdown.RefreshShownValue();
     }
 
-    public void SetResolution(int allresolution)
-    {
-        Resolution resolution = resolutions[allresolution];
-        Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
-    }
+    //public void SetResolution(int allresolution)
+    //{
+    //    Resolution resolution = resolutions[allresolution];
+    //    Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
+    //}
     public void SetVolume(float volume)
     {
         audioMixer.SetFloat("volume", volume);
