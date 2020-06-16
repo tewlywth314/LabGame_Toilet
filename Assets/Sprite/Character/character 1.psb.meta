@@ -86,28 +86,6 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: right hand
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 489
-      y: 4
-      width: 136
-      height: 185
-    spriteID: 14af12c3a4ada7f4cbc99c2c3c290d7c
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 85, y: -218}
   - name: mop
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -240,6 +218,28 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -22, y: 22}
+  - name: right hand
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 489
+      y: 4
+      width: 126
+      height: 140
+    spriteID: a5df10d8f95508340b5d7396f59e179b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 85, y: -218}
   - name: Folder 1 Copy 7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -251,7 +251,7 @@ ScriptedImporter:
       y: 379
       width: 126
       height: 140
-    spriteID: a5df10d8f95508340b5d7396f59e179b
+    spriteID: 8f242d2cba643f74ab91091266957f2c
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -285,8 +285,8 @@ ScriptedImporter:
     spriteName: right hand
     isGroup: 0
     parentIndex: -1
-    spriteID: 14af12c3a4ada7f4cbc99c2c3c290d7c
-    layerID: -246509849
+    spriteID: a5df10d8f95508340b5d7396f59e179b
+    layerID: 0
     mosaicPosition: {x: 489, y: 4}
   - name: mop
     spriteName: mop
@@ -334,8 +334,8 @@ ScriptedImporter:
     spriteName: Folder 1 Copy 7
     isGroup: 0
     parentIndex: -1
-    spriteID: a5df10d8f95508340b5d7396f59e179b
-    layerID: 0
+    spriteID: 8f242d2cba643f74ab91091266957f2c
+    layerID: 1660688513
     mosaicPosition: {x: 489, y: 379}
   characterData:
     bones: []
