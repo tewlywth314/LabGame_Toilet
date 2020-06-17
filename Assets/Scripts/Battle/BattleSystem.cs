@@ -14,7 +14,8 @@ public class BattleSystem : MonoBehaviour
     public GameObject AttackBut;
     public static GameObject EnemyPat;
     public GameObject WeaponSelectBar;
-    
+    bool isDead;
+
 
 
 
@@ -128,7 +129,7 @@ public class BattleSystem : MonoBehaviour
     }
     IEnumerator EnemyTurn()
     {
-        bool isDead = false;
+        //isDead = false;
         WeaponSelectBar.SetActive(false);
         AttackBar.SetActive(false);
         EnemyPatNum = Random.Range(0, enemy.GetComponent<EnemyPattern>().EnemyAttack.Length);
