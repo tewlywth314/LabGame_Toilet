@@ -503,7 +503,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.25
+  m_Intensity: 2
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -745,7 +745,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1095433803}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: c50e8be1f1c9ab14cacd803626911414, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 741ecea0f4dcef6438b2c8ec21881f02, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
