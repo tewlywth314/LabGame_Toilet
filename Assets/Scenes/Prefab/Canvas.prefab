@@ -2236,8 +2236,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -143, y: 52.03}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -1, y: 52.03}
+  m_SizeDelta: {x: 484, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5164100890289199971
 CanvasRenderer:
@@ -2926,7 +2926,7 @@ MonoBehaviour:
   m_material: {fileID: 0}
   m_sharedMaterial: {fileID: 0}
   m_isDefaultMaterial: 0
-  m_padding: 0
+  m_padding: 1.25
   m_canvasRenderer: {fileID: 5164100890740739741}
   m_TextComponent: {fileID: 5164100890289199970}
   m_materialReferenceIndex: 1

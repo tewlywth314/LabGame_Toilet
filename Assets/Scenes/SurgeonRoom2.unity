@@ -564,7 +564,7 @@ MonoBehaviour:
   player: {fileID: 379979009}
   Mapchanger: {fileID: 776549284}
   Scenename: SR.Room2Battle
-  ScenenameGenocide: Doctorscene
+  ScenenameGenocide: DocGenocide
 --- !u!65 &776549287
 BoxCollider:
   m_ObjectHideFlags: 0
