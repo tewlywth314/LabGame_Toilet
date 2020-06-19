@@ -25,7 +25,7 @@ public class RestRoomDialog : MonoBehaviour
     {
         for (int i=0;i < DialogArray.Length;)
         {
-            yield return new WaitForSeconds(3.5f);
+            yield return new WaitForSeconds(5.0f);
             i++;
             if (i >= DialogArray.Length)
             {
