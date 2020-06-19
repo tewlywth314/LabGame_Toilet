@@ -14,8 +14,14 @@ public class DeathScene : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            heart.isDead = false;
             SceneManager.LoadScene(BeforeScene);
+            Debug.Log(heart.isDead);
         }
-       
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("menu");
+        }
+
     }
 }

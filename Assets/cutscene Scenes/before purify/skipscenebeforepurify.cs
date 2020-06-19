@@ -33,7 +33,7 @@ public class skipscenebeforepurify : MonoBehaviour
             tew = false;
             loop++;
 
-            if (loop == 7)
+            if (loop == 8)
             {
                 SceneManager.LoadSceneAsync("StoragePolarized");
             }
