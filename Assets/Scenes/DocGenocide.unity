@@ -1139,7 +1139,17 @@ PrefabInstance:
     - target: {fileID: 5164100891042599901, guid: 2e3e29d1ed39a65419e8c3962d65081d,
         type: 3}
       propertyPath: m_padding
-      value: 0
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5164100891042599901, guid: 2e3e29d1ed39a65419e8c3962d65081d,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5164100891042599901, guid: 2e3e29d1ed39a65419e8c3962d65081d,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5164100891364063290, guid: 2e3e29d1ed39a65419e8c3962d65081d,
         type: 3}

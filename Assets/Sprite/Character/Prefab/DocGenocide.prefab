@@ -1052,8 +1052,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EnemyAttack:
-  - {fileID: 7840261063663802780, guid: b62f5d68d9859ef45bb128ce22deb4f5, type: 3}
   - {fileID: 2885386482190788584, guid: 3e7a5833ccec9df4a8412266bfd24058, type: 3}
+  - {fileID: 7840261063663802780, guid: b62f5d68d9859ef45bb128ce22deb4f5, type: 3}
+  - {fileID: 6264524163045030786, guid: 4b8ad967ddfab724296367f2ad794baf, type: 3}
 --- !u!1 &5495138559935594325
 GameObject:
   m_ObjectHideFlags: 0
