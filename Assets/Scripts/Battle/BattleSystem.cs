@@ -93,8 +93,8 @@ public class BattleSystem : MonoBehaviour
     }
     IEnumerator PlayerAttack()
     {
-       
-        
+
+        bool isDead = false;
         bool IsDead = enemyUnit.TakeDamage(playerUnit.damage);
         enemyUI.Hp(enemyUnit.CurrentHp);
         enemyUI.Polarized(enemyUnit.CurrentPolarized);
@@ -178,7 +178,7 @@ public class BattleSystem : MonoBehaviour
     }
     void PlayerTurn()
     {
-        
+       
         EnemFin = false;
         Destroy(EnemyPat);
         EncounterDialog.text = "What am i gonna do ?";

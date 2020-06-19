@@ -9,7 +9,7 @@ public class Exusial : MonoBehaviour
     private AudioSource Audio;
     public AudioClip Deployed;
     public AudioClip ApplePie;
-    public AudioClip skill3;
+  
 
     // Start is called before the first frame update
     void Start()
@@ -33,7 +33,7 @@ public class Exusial : MonoBehaviour
         yield return new WaitForSeconds(1f);
         Audio.PlayOneShot(ApplePie);
         yield return new WaitForSeconds(1.2f);
-        Audio.PlayOneShot(skill3,1f);
+        
         yield return new WaitForSeconds(6f);
         
         anim.SetBool("End", true);
