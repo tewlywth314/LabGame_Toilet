@@ -721,10 +721,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: StorageMan
-  MaxHp: 100000
+  MaxHp: 200
   MaxPolarized: 125
   damage: 1
-  CurrentHp: 100000
+  CurrentHp: 200
   CurrentPolarized: 125
   PolarizedWepID: 0100000005000000
 --- !u!114 &4056372301440706361
