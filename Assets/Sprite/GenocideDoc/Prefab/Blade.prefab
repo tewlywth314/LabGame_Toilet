@@ -97,9 +97,12 @@ BoxCollider:
   serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Size: {x: 1.5, y: 29.5, z: 5.5}
   m_Center: {x: 0, y: -0.19187662, z: 0.7432823}
 =======
+=======
+>>>>>>> parent of a971075... remove-resolutions_change-hitbox blade
 =======
 >>>>>>> parent of a971075... remove-resolutions_change-hitbox blade
   m_Size: {x: 1.7400001, y: 29.580004, z: 5.4926643}
