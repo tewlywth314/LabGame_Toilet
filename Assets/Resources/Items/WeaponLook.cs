@@ -19,6 +19,10 @@ public class WeaponLook : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Rend.sprite = GetComponent<ItemSprite>().WeaponSprite[WeaponDropdown.id];
+        if (WeaponDropdown.DropdownOn)
+        {
+            Rend.sprite = GetComponent<ItemSprite>().WeaponSprite[WeaponDropdown.id];
+        }
+        
     }
 }

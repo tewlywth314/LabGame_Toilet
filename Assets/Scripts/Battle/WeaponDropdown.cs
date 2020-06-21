@@ -17,6 +17,7 @@ public class WeaponDropdown : MonoBehaviour
     public float multi = 1;
     public static int id;
     public static float PolarizedDmg;
+    public static bool DropdownOn;
 
 
 
@@ -44,21 +45,32 @@ public class WeaponDropdown : MonoBehaviour
     }
     private void Update()
     {
-        
+        if(Weapons == null)
+        {
+            DropdownOn = false;
+        }
+        else
+        {
+            DropdownOn = true;
+        }
     }
     public void DropDownWeaponChanged(int index)
     {
-        foreach (Item itemZ in player.playerItems)
+        if(Weapons!= null)
         {
-            if (WeaponName[index] == itemZ.ItemName)
+            foreach (Item itemZ in player.playerItems)
             {
-                multi = itemZ.MultiplierDamage;
-                id = itemZ.ID;
-                Debug.Log(id);
-                PolarizedDmg = itemZ.PolarizedDamage;
-            }
+                if (WeaponName[index] == itemZ.ItemName)
+                {
+                    multi = itemZ.MultiplierDamage;
+                    id = itemZ.ID;
+                    Debug.Log(id);
+                    PolarizedDmg = itemZ.PolarizedDamage;
+                }
 
+            }
         }
+       
     }
 
 }
